@@ -1,7 +1,13 @@
-# laforge_board
+# LaForge_Board
 
 ## Project Goals
 The goal of this project is to improve accessibility of tabletop RPGs for the visually impared. The mechanism is a matrix of individually addressable RGB illuminated buttons. The button matrix will take the role of a standard battle map. Button color may be set by players pressing a button to move their token or by a terminal operator calling functions to change buttons. 
+
+<details><Summary>LaForge Board layout</summary>
+ <p>
+  <img src="https://raw.githubusercontent.com/SharmaNikitaK/laforge_board/master/laforge_general_layout.png" alt="LaForge Board Layout" href="https://raw.githubusercontent.com/SharmaNikitaK/laforge_board/master/laforge_general_layout.png"/>
+ </p>
+</details>
 
 ## Physical Design Notes
 * The board must have a toggle switch to control whether buttons change color based on touch. This is to allow for physical interaction with the buttons without changing the map.
