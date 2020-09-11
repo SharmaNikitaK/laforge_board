@@ -17,4 +17,6 @@ The goal of this project is to improve accessibility of tabletop RPGs for the vi
   * At some point, we will implement the ability to place patterns onto the board. This would accomodate placing indicators for auras such as *Bardic Performance*.
 
 ## Tasks
-1. Design an API for addressal of buttons, import/export of configurations for different maps and encounters, 
+1. Design an API for addressal of buttons, import/export of configurations for different maps and encounters
+2. Source light panel buttons to allow for creation of physical board
+3. Design electronics for board
