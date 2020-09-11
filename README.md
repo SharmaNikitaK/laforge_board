@@ -12,7 +12,8 @@ The goal of this project is to improve accessibility of tabletop RPGs for the vi
 ## Physical Design Notes
 * The board must have a toggle switch to control whether buttons change color based on touch. This is to allow for physical interaction with the buttons without changing the map.
 * Each player must have a button they can press to set the board to the proper mode for that player to move their token. The interaction would be the following: the player presses their button then presses on the board where they intend to move to. The board will change their old position light to whatever existed on the map layer, then will light their new position with the player's color.
-
+* The board must provide audio and tactile feedback E.G. Key switches provide audio feedback when buttons are pushed and an embossed letter and number grid is provided along the length and width of the board.
+* Visual accommodations should include High Contrast, enlarged buttons and symbols, reduced flicker rates, etc.
 ## Software Design Notes
 * There must be a map layer and a token layer held in memory to accomodate tokens moving.
 * The save files should be CSV formatted hexidecimal color codes.
