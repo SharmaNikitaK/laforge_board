@@ -1,29 +1,42 @@
-# LaForge_Board
+﻿# LaForge Board
 
 ## Project Goals
-The goal of this project is to improve accessibility of tabletop RPGs for the visually impared. The mechanism is a matrix of individually addressable RGB illuminated buttons. The button matrix will take the role of a standard battle map. Button color may be set by players pressing a button to move their token or by a terminal operator calling functions to change buttons. 
+LaForge Board will improve accessibility of tabletop role playing games (TTRPGs) for non-visual players with a self-contained physical game board. 
+
+The LaForge board is a box with a 16 x 16 grid of illuminated color selectable keys controlled with an internal Raspberry Pi. This grid is programmable to create a map and moveable player tokens.
 
 <details><Summary>LaForge Board layout</summary>
  <p>
-  <img src="https://raw.githubusercontent.com/SharmaNikitaK/laforge_board/master/laforge_general_layout.png" alt="LaForge Board Layout" href="https://raw.githubusercontent.com/SharmaNikitaK/laforge_board/master/laforge_general_layout.png"/>
+  <img src="https://raw.githubusercontent.com/SharmaNikitaK/laforge_board/prod/laforge_general_layout.png" alt="LaForge Board Layout" href="https://raw.githubusercontent.com/SharmaNikitaK/laforge_board/prod/laforge_general_layout.png"/>
  </p>
 </details>
 
-## Physical Design Notes
-* The board must have a toggle switch to control whether buttons change color based on touch. This is to allow for physical interaction with the buttons without changing the map.
-* Each player must have a button they can press to set the board to the proper mode for that player to move their token. The interaction would be the following: the player presses their button then presses on the board where they intend to move to. The board will change their old position light to whatever existed on the map layer, then will light their new position with the player's color.
-* The board must provide audio and tactile feedback E.G. Key switches provide audio feedback when buttons are pushed and an embossed letter and number grid is provided along the length and width of the board.
-* Visual accommodations should include High Contrast, enlarged buttons and symbols, reduced flicker rates, etc.
-## Software Design Notes
-* There must be a map layer and a token layer held in memory to accomodate tokens moving.
-* The save files should be CSV formatted hexidecimal color codes.
-* There must be a way for the operator to set board colors via the console.
-  * At some point, we will create a GUI for the operator so they can more easily design encounters.
-* There must be a way for the operator to set multiple button's colors simultaniously.
-* There must be a way for the operator to set shapes to a color. For example, they could create a rectangle from `B-3` to `O-12` to color `#c4de91`.
-  * At some point, we will implement the ability to place patterns onto the board. This would accomodate placing indicators for auras such as *Bardic Performance*.
+## Features
+* Players can move their individual token around the LaForge Board's grid without affecting the map
+* Customizable color selection for each player's individual token
+* Game Masters can program the board's pattern via console commands
+* Game Masters can program multiple button's colors simultaneously
+* Game Masters will be able to program the board's pattern with a Graphical User Interface
+* Game Masters and Players can place a pattern on the board to reflect  aura effects like Bardic Performance
+* Tactile and audible feedback when keys are pressed
+* High contract colors on the keys
+* Large keys
+* Low flicker rates on the keys
+>**Continue adding features to this list from Nikki's README and User Stories**
 
-## Tasks
-1. Design an API for addressal of buttons, import/export of configurations for different maps and encounters
-2. Source light panel buttons to allow for creation of physical board
-3. Design electronics for board
+## Installation
+The LaForge Board is a self-contained unit that can be programmed by interfacing with the Raspberry Pi inside of the LaForge Board. 
+>**I assume this will be done by plugging in a keyboard to the board and typing in commands via the Pi's console, ask Nikki and Tyler though** 
+>There may in the future be an update that implements interfacing with the LaForge Board using an app or connecting with a Google Sheets document, but currently that fuctionality is not available.
+
+## Contribute
+* Source Code: https://github.com/SharmaNikitaK/laforge_board.git
+
+## Support
+If you are having issues, please let us know.
+Please file an issue here: https://github.com/SharmaNikitaK/laforge_board/issues
+
+**Check that non-contributors to the repository can actually file issues in the above link**
+
+## License
+The project is licensed under the Apache license.
