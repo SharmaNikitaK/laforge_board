@@ -22,11 +22,9 @@ The LaForge board is a box with a 16 x 16 grid of illuminated color selectable k
 * High contract colors on the keys
 * Large keys
 * Low flicker rates on the keys
->**Continue adding features to this list from Nikki's README and User Stories**
 
 ## Installation
 The LaForge Board is a self-contained unit that can be programmed by interfacing with the Raspberry Pi inside of the LaForge Board. 
->**I assume this will be done by plugging in a keyboard to the board and typing in commands via the Pi's console, ask Nikki and Tyler though** 
 >There may in the future be an update that implements interfacing with the LaForge Board using an app or connecting with a Google Sheets document, but currently that fuctionality is not available.
 
 ## Contribute
@@ -35,8 +33,6 @@ The LaForge Board is a self-contained unit that can be programmed by interfacing
 ## Support
 If you are having issues, please let us know.
 Please file an issue here: https://github.com/SharmaNikitaK/laforge_board/issues
-
-**Check that non-contributors to the repository can actually file issues in the above link**
 
 ## License
 The project is licensed under the Apache license.
