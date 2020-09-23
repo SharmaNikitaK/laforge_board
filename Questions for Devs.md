@@ -15,9 +15,11 @@ The list below is a collection of questions regarding the physical design of the
 - [ ] How much space should there be between keys?
 - [ ]  Are the lettered column headers and numbered row headers lit?
 - [ ] How should we design the direction of the lettered and numbered headers on the board?
+- [ ] How will the GM interface with the Raspberry Pi?
 
 ## Software Design
 The list below is a collection of questions regarding the software capabilities of the LaForge Board.
 - [ ] What even is a soft...ware???
+- [ ] Can non-contributors file issues on GitHub?
 >
 > Written with [StackEdit](https://stackedit.io/).
